@@ -1,0 +1,80 @@
+# Ignore logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore dependency folders
+/node_modules
+/.pnp
+.pnp.js
+
+# Editor-specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build output (React)
+build/
+dist/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Service workers
+workbox-*
+
+# MacOS system files
+.DS_Store
+
+# Spring Boot (Backend) specific
+/target/
+/out/
+/bin/
+/build/
+
+# Maven and Gradle
+.mvn/
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/pom.xml.bak
+**/pom.xml.asc
+**/target/
+
+.gradle/
+/gradle/
+/build/
+
+# Java-specific
+*.class
+*.jar
+*.war
+*.ear
+
+# Lombok cache files
+*.lombok.config
+
+# IDE specific (IntelliJ, Eclipse, NetBeans, etc.)
+/*.iml
+*.ipr
+*.iws
+/.idea/
+/.classpath
+/.project
+/.settings/
+/nbproject/
+
+# Docker-related files
+docker-compose.override.yml
+.dockerignore
+
+# OS-specific files
+Thumbs.db
